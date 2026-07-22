@@ -2,9 +2,11 @@
 
 **A real-time VJ instrument and livestream visuals engine for Windows & macOS.** Grid-based live visuals — GPU shaders, 3D dioramas, fluid simulation, projection-style shapes, live text, and your camera — mixed on a clip grid with cue/take staging, audio reactivity, and hands-on control from MIDI, TouchOSC, or the keyboard.
 
+**Latest: [Phaselight 0.7.1 — Smooth Takes](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.1)** — perfectly smooth crossfade TAKEs, the redesigned PROGRAM window with GO LIVE / STOP LIVE, AMD FSR / NVIDIA NIS scalers with true supersampling over NDI, resolution changes that never drop your stream, a faster engine (biggest gains on macOS), and a media library with groups, folder import, and multi-select.
+
 [![Phaselight 0.7.0 — The Livestream Toolkit](media/release-0.7.0-banner.png)](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.0)
 
-*Full notes on the [v0.7.0 release page](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.0). Phaselight is pre-1.0 and under active development; this repo hosts the public beta installers.*
+*Full notes on the [v0.7.1 release page](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.1). Phaselight is pre-1.0 and under active development; this repo hosts the public beta installers.*
 
 ## Install
 
