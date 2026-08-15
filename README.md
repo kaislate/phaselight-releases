@@ -4,7 +4,7 @@
 
 **Latest: [Phaselight 0.7.2 — The Library & The Timeline](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.2)** — the biggest release yet: a full **timeline** you arrange clips on and play from a single grid cell, with automation curves and Ableton-style overwrite editing; a real **media library** with tags, ratings, smart collections, watched folders and hover-scrub; a rebuilt **Text Studio** with Live Type, message pads and lyric scripts; performable **masks**, a **transition bank** with move transitions, free canvas placement, per-app audio capture, and a beta portal where testers vote on what gets built next.
 
-[![Phaselight 0.7.0 — The Livestream Toolkit](media/release-0.7.0-banner.png)](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.0)
+[![Phaselight 0.7.2 — The Library & The Timeline](media/release-0.7.2-banner.png)](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.2)
 
 *Full notes on the [v0.7.2 release page](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.2). Phaselight is pre-1.0 and under active development; this repo hosts the public beta installers.*
 
@@ -22,13 +22,13 @@ Every build from **v0.6.2** onward checks for updates on launch and installs the
 
 ## Get a beta key
 
-Request one at **https://phaselight-beta.iamkaislate-dev.workers.dev/** — enter your email, click the confirmation link, and paste the key into the prompt on first launch (or anytime in **Settings → License**). One key per person; beta keys are valid for all 0.x releases.
+Request one at the **Beta Portal** — **https://phaselight-beta.iamkaislate-dev.workers.dev/** — enter your email, click the confirmation link, and paste the key into the prompt on first launch (or anytime in **Settings → License**). One key per person; beta keys are valid for all 0.x releases.
 
 The app runs as **Core** out of the box on both platforms. On Windows, a beta key additionally unlocks the **Pro** outputs and inputs: NDI network video (in AND out) and the virtual camera (OBS / Zoom / Discord).
 
 ## Feedback & beta diagnostics
 
-The fastest way to reach us is the **⚡ FEEDBACK** button at the top of the app — type your report and optionally attach a snapshot of your output and technical details. You can review exactly what gets sent before sending. You can also open an [issue](https://github.com/kaislate/phaselight-releases/issues).
+The fastest way to reach us is the **⚡ Beta Lounge** button at the top of the app — type your report and optionally attach a snapshot of your output and technical details. You can review exactly what gets sent before sending. You can also open an [issue](https://github.com/kaislate/phaselight-releases/issues).
 
 During the beta the app reports lightweight anonymous usage on its periodic license check (key id, app version, OS) so we can see which builds are actually in use. No personal data, no content, nothing from your machine beyond that — and the in-app notice spells it out.
 
