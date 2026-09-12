@@ -1,30 +1,38 @@
 # Phaselight — Beta Releases
 
-**A real-time VJ instrument and livestream visuals engine for Windows & macOS.** Grid-based live visuals — GPU shaders, 3D dioramas, fluid simulation, projection-style shapes, live text, and your camera — mixed on a clip grid with cue/take staging, audio reactivity, and hands-on control from MIDI, TouchOSC, or the keyboard.
+**A real-time VJ instrument and livestream visuals engine for Windows & macOS.** Grid-based live visuals — GPU shaders, 3D dioramas, projection-style shapes, live text, and your camera — mixed on a clip grid with cue/take staging, audio reactivity, and hands-on control from MIDI, OSC, or the keyboard. It arranges too: a full **timeline** with automation, a **page per song**, and a **media library** that manages everything you own.
 
-**Latest: [Phaselight 0.7.2 — The Library & The Timeline](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.2)** — the biggest release yet: a full **timeline** you arrange clips on and play from a single grid cell, with automation curves and Ableton-style overwrite editing; a real **media library** with tags, ratings, smart collections, watched folders and hover-scrub; a rebuilt **Text Studio** with Live Type, message pads and lyric scripts; performable **masks**, a **transition bank** with move transitions, free canvas placement, per-app audio capture, and a beta portal where testers vote on what gets built next.
+**Latest: [Phaselight 0.7.4 — The Instrument](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.4)** — the desk can hear the difference between **loud** and **busy**. A breakdown with a huge sustained bass is as loud as the drop that follows it, so every look used to hit both just as hard; the analyser now measures nine things about the sound that are *not* its volume, and one **Dynamics** control scales how hard every look reacts by how much is actually happening in the music. Plus **fifty-four new looks** (Mercury's liquid metal, eight looks that remember the frame before, twenty-one lens treatments), a **lyrics system** that lands words on the beat, modulation rebuilt around the dial you already set, and **Phaselight Library** — the first standalone in the series, and free.
 
-[![Phaselight 0.7.2 — The Library & The Timeline](media/release-0.7.2-banner.png)](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.2)
+[![Phaselight 0.7.4 — The Instrument](media/release-0.7.4-banner.png)](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.4)
 
-*Full notes on the [v0.7.2 release page](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.2). Phaselight is pre-1.0 and under active development; this repo hosts the public beta installers.*
+*Full notes on the [v0.7.4 release page](https://github.com/kaislate/phaselight-releases/releases/tag/v0.7.4). Phaselight is pre-1.0 and under active development; this repo hosts the public beta installers.*
 
 ## Install
 
-**Windows (Pro-capable)**
-1. Download the latest `-setup.exe` (NSIS) or MSI from [Releases](https://github.com/kaislate/phaselight-releases/releases).
+**Windows — Phaselight Pro**
+1. Download `Phaselight.Pro_<version>_x64-setup.exe` (or the `.msi`) from [Releases](https://github.com/kaislate/phaselight-releases/releases).
 2. Run it and launch **Phaselight**.
 
-**macOS (Core, Apple Silicon)**
-1. Download the latest `.dmg` from [Releases](https://github.com/kaislate/phaselight-releases/releases).
+**macOS — Phaselight Core (Apple Silicon)**
+1. Download `Phaselight.Core_<version>_aarch64.dmg` from [Releases](https://github.com/kaislate/phaselight-releases/releases).
 2. Drag **Phaselight Core** to Applications. The build is unsigned — **right-click → Open** on first launch.
+
+**Windows — Phaselight Library (free, standalone)**
+1. Download `Phaselight.Library_<version>_x64-setup.exe`.
+2. It installs *alongside* Core and Pro rather than over them, and shares one collection with whichever you already have — what you add in one is there in the others.
+
+> **Quit Phaselight before installing by hand.** The installer closes any other Phaselight that is running, without asking. If the desk is open mid-set, you lose the show. In-app updates handle this for you.
 
 Every build from **v0.6.2** onward checks for updates on launch and installs them in-app — you only ever need to install by hand once.
 
 ## Get a beta key
 
-Request one at the **Beta Portal** — **https://phaselight-beta.iamkaislate-dev.workers.dev/** — enter your email, click the confirmation link, and paste the key into the prompt on first launch (or anytime in **Settings → License**). One key per person; beta keys are valid for all 0.x releases.
+Request one at the **Beta Portal** — **https://beta.phaselight.app/** — enter your email, click the confirmation link, and paste the key into the prompt on first launch (or anytime in **Settings → License**). One key per person; beta keys are valid for all 0.x releases.
 
-The app runs as **Core** out of the box on both platforms. On Windows, a beta key additionally unlocks the **Pro** outputs and inputs: NDI network video (in AND out) and the virtual camera (OBS / Zoom / Discord).
+The app runs as **Core** out of the box on both platforms. A beta key additionally unlocks the **Pro** tier: NDI in and out, Spout, the virtual camera, window and display capture, per-application audio, the Program window, recording, OSC input and Ableton Link. **Settings → License** shows the full comparison, marked for the machine you are on.
+
+Content **packs** are a third thing: bought on their own, and they work in Core and Pro alike.
 
 ## Feedback & beta diagnostics
 
